@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Színes Képek Weboldal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .image-box {
+            margin: 10px;
+            width: 300px;
+            height: 250px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .image-box p {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #fff;
+            margin: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Színes Képek Weboldal</h1>
+        <p>Fedezd fel a színek varázsát és a képek világát!</p>
+    </header>
+
+    <div class="container">
+        <div class="image-box">
+            <img src="https://via.placeholder.com/300x200/FF5733/ffffff?text=Piros" alt="Piros">
+            <p>A piros szín erőteljes és figyelemfelkeltő. Energiát és szenvedélyt sugároz.</p>
+        </div>
+        <div class="image-box">
+            <img src="https://via.placeholder.com/300x200/33FF57/ffffff?text=Zöld" alt="Zöld">
+            <p>A zöld szín a természet és a frissesség szimbóluma. Nyugalmat és harmóniát áraszt.</p>
+        </div>
+        <div class="image-box">
+            <img src="https://via.placeholder.com/300x200/3357FF/ffffff?text=Kék" alt="Kék">
+            <p>A kék szín a nyugalmat, a tisztaságot és a megbízhatóságot jelképezi.</p>
+        </div>
+        <div class="image-box">
+            <img src="https://via.placeholder.com/300x200/FF33A6/ffffff?text=Rózsaszín" alt="Rózsaszín">
+            <p>A rózsaszín szín a szeretet és a gyengédség szimbóluma, a lágy hangulatot idézi.</p>
+        </div>
+        <div class="image-box">
+            <img src="https://via.placeholder.com/300x200/FFD700/ffffff?text=Sárga" alt="Sárga">
+            <p>A sárga szín a napfény, az optimizmus és az öröm színe. Energikus és boldogságot sugároz.</p>
+        </div>
+        <div class="image-box">
+            <img src="https://via.placeholder.com/300x200/8A2BE2/ffffff?text=Lila" alt="Lila">
+            <p>A lila szín a kreativitás és a spiritualitás jelképe. Titokzatos és elgondolkodtató.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Színes Képek Weboldal. Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>
